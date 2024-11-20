@@ -1,0 +1,93 @@
+body {
+  background-image: url(PONTE.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+
+}
+a {
+  color: white;
+  margin: 0 20px;
+  text-decoration: none;
+  font-family:  fantasy;
+}
+.menu {
+  text-align: center;
+  border-radius: 5px;
+  border: solid red;
+  border-width: 1px;
+  background-color: black;
+
+}
+.pubblicità {
+
+
+
+  text-align: center;
+  font-size: 20px;
+  text-decoration: underline;
+  color: black;
+  background-color: black;
+  text-shadow: 2px 2px 10px red;
+  font-family: fantasy;
+  letter-spacing: 2px;
+
+
+
+}
+.elenco{
+  color: white;
+  background-image: url(dev.png);
+  background-size: cover;
+  background-color: black;
+  font-family:  fantasy;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 20px white;
+  display: inline-block;
+  background-position: center;
+  border: solid red;
+  border-width: 1px;
+  border-radius: 5px;
+  animation: coloreTesto 10s;
+
+  }
+  @keyframes coloreTesto {
+    0% {color: black;}
+
+    100% {color: white;}
+}
+.Garanzia {
+  text-align: center;
+  font-size: 20px;
+  text-decoration: underline;
+  color: black;
+  background-color: black;
+  text-shadow: 2px 2px 10px red;
+  font-family: fantasy;
+
+}
+.anno {
+  color: red;
+  letter-spacing: 2px;
+  font-family: serif;
+
+}
+.instagram {
+
+  font-size: 20px;
+  color: black;
+  text-shadow: 2px 2px 10px red;
+  font-family: fantasy;
+}
+.insta {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  text-shadow: 2px 2px 10px red;
+  font-family:  serif;
+  letter-spacing: 2px;
+  display: inline-block;
+
+}

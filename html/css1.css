@@ -1,0 +1,35 @@
+
+
+body {
+background-color: black;
+background-image: url('a1.jpg');
+background-size: cover;
+background-position: center ;
+position: -50px;
+}
+
+.foto:active {
+  transform: scale(1.8);
+
+
+}
+
+.foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  filter: drop-shadow(0 0 30px red);
+opacity: 0;
+animation: fadeInEffect
+2s ease-in forwards;
+
+}
+@keyframes fadeInEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+}

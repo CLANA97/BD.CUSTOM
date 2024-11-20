@@ -1,0 +1,74 @@
+body {
+  background-image: url(foto1.jpg);
+  background-position: center;
+  background-size: cover;
+  color: red;
+  background-color: black;
+}
+a {
+  color: white;
+  margin: 0 20px;
+  text-decoration: none;
+  font-family:  fantasy;
+
+}
+.titolo {
+  background-color: black;
+  display: inline-block;
+  border-radius: 5px;
+  line-height: 0;
+  border: 1px double white;
+  font-family: fantasy;
+  font-size: 30px;
+  -webkit-text-stroke: 1px;
+  -webkit-text-fill-color: black;
+  color: red;
+  animation: coloreTesto 6s;
+
+  }
+  @keyframes coloreTesto {
+    0% {color: black;}
+    100% {color: red;}
+
+  }
+
+.menu, .Motivazione {
+  text-align: center;
+  border-radius: 5px;
+  border: solid red;
+  border-width: 1px;
+  background-color: black;
+
+
+}
+.BD, .capofoglio {
+  background-color: black;
+  display: inline-block;
+  border-radius: 5px;
+  font-family: ;
+
+}
+.auto {
+  color: white;
+}
+.motto, .motto2 {
+  background-color: black;
+  display: inline-block;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid red;
+}
+
+.raduni {
+  background-color: black;
+  display: inline-block;
+  border-radius: 5px;
+  border:1px dashed red;
+}
+.Motivazione {
+  color: white;
+  border: 1px solid white;
+}
+.BD {
+  text-shadow: 0 0 30px red;
+}
