@@ -13,6 +13,7 @@ a {
   margin: 0 20px;
   text-decoration: none;
   font-family:  fantasy;
+  display:inline;
 }
 .menu {
   text-align: center;
@@ -43,10 +44,10 @@ a {
 .nome {
   text-align: center;
   text-shadow: 1px 1px 10px red;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.9);
   display: inline-block;
-  font-family: fantasy;
-  color: black;
+  font-family: serif;
+  color: white;
   font-size: 20px;
 }
 input, .date {

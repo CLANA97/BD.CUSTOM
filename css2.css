@@ -10,7 +10,7 @@ a {
   margin: 0 20px;
   text-decoration: none;
   font-family:  fantasy;
-
+  display:inline;
 }
 .titolo {
   background-color: black;
