@@ -72,3 +72,7 @@ a {
 .BD {
   text-shadow: 0 0 30px red;
 }
+.photo-list img {
+  max-width: 150px;
+  margin: 10px;
+}
