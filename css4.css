@@ -85,4 +85,5 @@ button:active img {
   box-shadow: 1px 1px 10px 5px red;
   font-family: serif;
   text-shadow: 1px 1px 8px red;
+  user-select: none;
 }
